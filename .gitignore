@@ -31,6 +31,7 @@ yarn-error.log*
 server/uploads/*
 !server/uploads/signatures/
 !server/uploads/signatures/sample-*.png
+server/uploads/signatures/signature-*.png
 
 # OS & Editor
 .DS_Store
