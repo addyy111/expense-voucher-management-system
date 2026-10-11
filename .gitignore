@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production build
+dist/
+build/
+
+# SQLite Database
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Uploads except sample signatures
+server/uploads/*
+!server/uploads/signatures/
+!server/uploads/signatures/sample-*.png
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
